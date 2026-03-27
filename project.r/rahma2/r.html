@@ -1,307 +1,192 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="moh.css">
-    <link rel="stylesheet" href=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css integrity="sha512-
-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASoz
-pmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta charset="UTF-8" />
+    <title>document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="./moh.css">
+    <link rel="shortcut icon" type="image/x-icon" href="./favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+
 </head>
 
 <body>
-    <section class="container">
-        <header>
-            <nav>
-                <img src="imge2.jpg" alt=" Food Lovers Logo">
+    <header>
+        <div id="navbar">
+            <img src="./imge2.jpg" alt="logo">
+            <nav class="navigation">
                 <ul>
-                    <a href="#">
-                        <li>Home</li>
-                    </a>
-                    <a href="#">
-                        <li>About</li>
-                    </a>
-                    <a href="#">
-                        <li>Menu</li>
-                    </a>
-                    <a href="#">
-                        <li>Gellary</li>
-                    </a>
-                    <a href="#">
-                        <li>Contact</li>
-                    </a>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#menu">Meneu</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
-            <section>
-                <h1>Welcome To <span>Food Lover</span> Restaurant</h1>
-                <p>Here you can find Most delicacies food in the world</p>
-                <a href="#contact">Book a Table</a>
-            </section>
-            <section class="over-lay"></section>
-        </header>
-        <section class="history">
-            <section class="history_h">
-                <h1>The Food Lover history</h1>
-                <p>More than 25+ years of experience</p>
-                <section class="text">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur, quibusdam saepe natus
-                        numquam
-                        dolorum aliquam ducimus molestias tenetur? Quaerat, atque blanditiis. Debitis voluptatem
-                        sequi
-                        quibusdam nihil eveniet obcaecati soluta rem. <br> Lorem ipsum dolor sit amet, consectetur
-                        adipisicing elit. Quaerat nesciunt aspernatur earum sequi consequatur, quasi iste quod nam
-                        esse
-                        adipisci neque commodi voluptate deserunt architecto rerum. Blanditiis labore sed sapiente
-                        <a href="#">LEARN MORE</a>
-                    </p>
+        </div>
+        <div class="content">
+            <h1>Welcome To <span>Food Lover</span>Restaurant</h1>
+            <p>Here you can find Most delicacies food in the world</p>
+            <a href="#contact" id="button">Book a Table</a>
+        </div>
+    </header>
 
-                    <img src="about_img.png" alt="about_img">
-                </section>
-            </section>
-
-        </section>
-        <section class="offers">
+    <main>
+        <section id="content">
             <div class="container">
-                <div class="lo-title">
-                    <h2><span class="primary-text">Our Special Offers</span></h2>
+                <div class="title">
+                    <h2>The Food Lover history</h2>
                     <p>More than 25+ years of experience</p>
                 </div>
-            </div>
-            <div class="offers-items">
-                <div>
-                    <img src="imge4.jpg" alt="Quattro Pasta">
+
+                <div class="about-content">
                     <div>
-                        <h3>Quattro Pasta</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur
-                            adipisicing elit. Nam, quibusdam.</p>
-
-                        <p><del>$ 55.00</del> <span class="primary-
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur, quibusdam saepe natus
+                            numquam dolorum aliquam ducimus molestias tenetur? Quaerat, atque blanditiis. Debitis
+                            voluptatem
+                            sequi quibusdam nihil eveniet obcaecati soluta rem.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat nesciunt aspernatur earum
+                            sequi
+                            consequatur, quasi iste quod nam esse adipisci neque commodi voluptate deserunt architecto
+                            rerum. Blanditiis labore sed sapiente.</p>
+                        <a href="#">LEARN MORE</a>
+                    </div>
+                    <img src="./about_img.png" alt="img">
+                </div>
+        </section>
+        <section id="offers">
+            <div class="container">
+                <div class="title">
+                    <h2>Our Special Offers</h2>
+                    <p>More than 25+ years of experience</p>
+                </div>
+                <div class="offers-items-wrapper">
+                    <div class="offers-items">
+                        <div class="offer-item">
+                            <img src="./imge4.jpg" alt="Quattro Pasta">
+                            <div>
+                                <h3>Quattro Pasta</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam,
+                                    quibusdam.</p>
+                                <p><del>$ 55.00</del> <span class="primary-
 text">$18.00</span></p>
-
+                            </div>
+                        </div>
+                        <div class="offer-item">
+                            <img src="./imge5.jpg" alt="Vegertarian Pasta">
+                            <div>
+                                <h3>Vegertarian Pasta</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam,
+                                    quibusdam.</p>
+                                <p><del>$ 55.00</del> <span class="primary-
+text">$18.00</span></p>
+                            </div>
+                        </div>
+                        <div class="offer-item">
+                            <img src="./imge6.jpg" alt="Gluten-Free Pasta">
+                            <div>
+                                <h3>Gluten-Free Pasta</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam,
+                                    quibusdam.</p>
+                                <p><del>$ 55.00</del> <span class="primary-
+text">$18.00</span></p>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div>
-                    <img src="imge5.jpg" alt="Vegertarian Pasta">
-                    <div>
-                        <h3>Vegertarian Pasta</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur
-                            adipisicing elit. Nam, quibusdam.</p>
-
-                        <p><del>$ 55.00</del> <span class="primary-
-text">$18.00</span></p>
-
-                    </div>
-                </div>
-                <div>
-                    <img src="imge6.jpg" alt="Quattro Pasta">
-                    <div>
-                        <h3>Gluten-Free Pasta</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur
-                            adipisicing elit. Nam, quibusdam.</p>
-
-                        <p><del>$ 55.00</del> <span class="primary-
-text">$18.00</span></p>
-
-                    </div>
-                </div>
-            </div>
+                <button class="prev">&#10094;</button>
+                <button class="next">&#10095;</button>
             </div>
         </section>
+
         <section class="menu-section">
-
             <h2>Our Special Menu</h2>
-            <p class="subtitle">Order two and get third for free</p>
 
-            <div class="menu-grid">
-
-                <div class="item">
-                    <img src="imge7.jpg">
-                    <div>
-                        <h3>LASAL CHEESE <span>$18.00</span></h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                    </div>
-                </div>
-
-                <div class="item">
-                    <img src="imge8.jpg">
-                    <div>
-                        <h3>KOFTA MEAT <span>$40.00</span></h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                    </div>
-                </div>
-
-                <div class="item">
-                    <img src="imge9.jpg">
-                    <div>
-                        <h3>JUMBO CRAB SHRIMP <span>$24.00</span></h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                    </div>
-                </div>
-
-                <div class="item">
-                    <img src="imge10.jpg">
-                    <div>
-                        <h3>SPANISH PIES <span>$14.00</span></h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                    </div>
-                </div>
-
-                <div class="item">
-                    <img src="imge11.jpg">
-                    <div>
-                        <h3>KOKTAIL JUICE <span>$12.00</span></h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                    </div>
-                </div>
-
-                <div class="item">
-                    <img src="imge12.jpg">
-                    <div>
-                        <h3>CHEESE TOST <span>$6.00</span></h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                    </div>
-                </div>
-
-                <div class="item">
-                    <img src="./imge13.jpg">
-                    <div>
-                        <h3>CAPO STEAK <span>$60.00</span></h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                    </div>
-                </div>
-
-                <div class="item">
-                    <img src="./imge14.jpg">
-                    <div>
-                        <h3>FRUIT SALAD <span>$14.00</span></h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                    </div>
-                </div>
-
-                <div class="item">
-                    <img src="./imge15.jpg">
-                    <div>
-                        <h3>ORGANIC FRUIT SALAD <span>$8.00</span></h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                    </div>
-                </div>
-
-                <div class="item">
-                    <img src="./imge16.jpg">
-                    <div>
-                        <h3>CHICKEN SHAWARMA <span>$20.00</span></h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                    </div>
-                </div>
-
-                <div class="item">
-                    <img src="imge17.jpg">
-                    <div>
-                        <h3>CHEESE PIZZA <span>$18.00</span></h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                    </div>
-                </div>
-
-                <div class="item">
-                    <img src="./imge18.jpg">
-                    <div>
-                        <h3>MEGA CHEESE PIZZA <span>$30.00</span></h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                    </div>
-                </div>
-
-            </div>
-
-            <button class="btn">EXPLORE FULL MENU</button>
-
+            <div id="menuContainer" class="menu-container"></div>
         </section>
 
-        <section class="food">
-            <div class="daytime-item">
-                <img src="./img19.jpg" alt="Breakfast">
-                <h2>Breakfast</h2>
-                <p>8:00 am to 10:00 am</p>
-            </div>
-            <div class="daytime-item">
-                <img src="./imge21 (2).jpg" alt="Lunch">
-                <h2>Lunch</h2>
-                <p>4:00 pm to 7:00 pm</p>
-            </div>
-            <div class="daytime-item">
-                <img src="./imge22 (2).jpg" alt="Dinner">
-                <h2>Dinner</h2>
-                <p>9:00 pm to 1:00 Am</p>
-            </div>
-            <div class="daytime-item">
-                <img src="./imge23 (2).jpg" alt="dessert">
-                <h2>Dessert</h2>
-                <p>All day</p>
-            </div>
 
-
-        </section>
-        <section class="gallery">
-            <div class=" top-container">
+        <section id="gallery">
+            <div class="container">
                 <h2>Our Food Gallery</h2>
                 <div class="img-gallery">
-                    <img src="./imge24.jpg" alt="gallery1">
-                    <img src="./imge25.jpg" alt="gallery2">
+                    <img src="./gallery2.jpeg" alt="gallery1">
+                    <img src="./imge24.jpg" alt="gallery2">
                     <img src="./gallery3.jpeg" alt="gallery3">
                     <img src="./gallery4.jpeg" alt="gallery4">
-                    <img src="./imge28.jpg" alt="gallery5">
+                    <img src="./gallery5.jpeg" alt="gallery5">
                     <img src="./gallery6.jpeg" alt="gallery6">
                 </div>
             </div>
-
         </section>
-        <body>
 
-<section id="contact">
-  <div class="container">
-    <div class="contact-content">
-
-      <!-- LEFT -->
-      <div class="contact-info">
-        <h3>ADDRESS</h3>
-        <p><i class="fas fa-location-dot"></i> Mansoura, Beside stadium, Egypt</p>
-        <p><i class="fas fa-phone"></i> Phone: 123456789</p>
-        <p><i class="fas fa-envelope"></i> support@foodlover.com</p>
-
-        <h3>WORKING HOURS</h3>
-        <p>8:00 am to 11:00 pm on Weekdays</p>
-        <p>11:00 am to 1:00 am on Weekends</p>
-
-        <h3>FOLLOW US</h3>
-        <div class="social">
-          <i class="fab fa-facebook-f"></i>
-          <i class="fab fa-twitter"></i>
-          <i class="fab fa-instagram"></i>
+        <div id="boxContainer">
+            <div id="boxItem">
+                <i id="prev" class="fa-solid fa-circle-left fa-2x"></i>
+                <i id="close" class="fa-solid fa-circle-xmark fa-2x"></i>
+                <i id="next" class="fa-solid fa-circle-right fa-2x"></i>
+            </div>
         </div>
-      </div>
 
-      <!-- RIGHT -->
-      <form class="contact-form">
-        <input type="text" placeholder="Full Name">
-        <input type="email" placeholder="Email Address">
-        <input type="text" placeholder="Subject">
-        <textarea placeholder="Message"></textarea>
-        <button>SEND MESSAGE</button>
-      </form>
 
-    </div>
-  </div>
-</section>
+        <section id="contact">
+            <div class="container">
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <div>
+                            <h3>ADDRESS</h3>
+                            <p><i class="fa-solid fa-location-dot"></i> Hosary Mosque, 6 October, Egypt</p>
+                            <p><i class="fa-solid fa-phone"></i> Phone:01069038779‬‏</p>
+                            <p><i class="fa-regular fa-envelope"></i> support@foodlover.com</p>
+                        </div>
+                        <div>
+                            <h3>WORKING HOURS</h3>
+                            <p>8:00 am to 11:00 pm on Weekdays</p>
+                            <p>11:00 am to 1:00 Am on Weekends</p>
+                        </div>
+                        <div>
+                            <h3>FOLLOW US</h3>
+                            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        </div>
+                    </div>
+                    <form>
+                        <input type="text" name="Name" id="name" placeholder="Full Name">
+                        <input type="email" name="email" id="email" placeholder="Email Address">
+                        <input type="text" name="subject" id="subject" placeholder="Subject">
+                        <textarea name="message" id="message" cols="30" rows="5" placeholder="Message"></textarea>
+                        <button type="submit" class="btn btn-third">SEND MESSAGE</button>
+
 
 </body>
 </html>
         
     <footer class="footer-bottom">
         <p>Copyright © 2024 All rights reserved | designed by <b>rahma ail</b></p>
-    </footer>
-    </section>
 
+                    </form>
+                </div>
+            </div>
+        </section>
+
+    </main>
+    <footer id="footer">
+        <p>Copyright &copy; 2024 All rights reserved | made by <b> <a href="https://mohamedelkashef.com "
+                    target="_blank"> Rahma Ali</a></b></p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+
+    <script src="./c.js"></script>
 </body>
 
 </html>
